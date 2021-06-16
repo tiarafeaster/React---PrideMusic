@@ -1,0 +1,165 @@
+:root {
+	--primary-color: #639cd9;
+	--secondary-color: #5454c5;
+	--third-color: #342056;
+	--background-color: black;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: var(--background-color);
+	color: white;
+}
+.card-title {
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+
+h1,
+h2,
+h3,
+.card-body > .card-title {
+	color: var(--secondary-color);
+	font-family: "Lobster", cursive;
+}
+
+img {
+	margin-top: 10px;
+	height: 300px;
+	width: 200px;
+	object-fit: contain;
+}
+
+.site-footer {
+	margin: 0;
+	padding: 10px;
+	color: #e7eaf6;
+	background-color: var(--third-color);
+}
+
+.jumbotron {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/512px-Gay_Pride_Flag.svg.png");
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 40px;
+	object-fit: fill;
+}
+
+/*
+:root {
+	--primary-color: #639cd9;
+	--secondary-color: #5454c5;
+	--third-color: #342056;
+	--background-color: black;
+	--box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	background-color: var(--background-color);
+	color: white;
+}
+
+img {
+	margin-top: 10px;
+	height: 300px;
+	width: 200px;
+	object-fit: contain;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-align: center;
+	color: var(--secondary-color);
+	padding: 10px;
+	margin: 10px;
+}
+p,
+li {
+	color: white;
+}
+
+ul {
+	margin-top: 15px;
+}
+button,
+.btn {
+	display: block;
+	margin: 30px auto;
+	padding: 20px;
+	background-color: var(--third-color);
+	color: white;
+	border: 2px solid #1a64d6;
+	border-radius: 50px;
+	font-size: 18px;
+	transition: all 200ms ease-in-out;
+}
+button:hover,
+.btn:hover {
+	background-color: var(--primary-color);
+	color: white;
+	cursor: pointer;
+}
+
+#events-image {
+	max-width: 35%;
+	max-height: auto;
+}
+
+.jumbotron {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Gay_Pride_Flag.svg/512px-Gay_Pride_Flag.svg.png");
+	background-size: 100% 100%;
+	margin: 0;
+	padding: 40px;
+	object-fit: fill;
+}
+
+.site-footer {
+	margin: 0;
+	padding: 10px;
+	color: #e7eaf6;
+	background-color: var(--third-color);
+}
+.navbar {
+	background-color: var(--third-color);
+}
+
+.card {
+	color: white;
+	background-color: black;
+	border: 2px solid var(--primary-color);
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.modal-body,
+.modal-header {
+	color: black;
+	background-color: var(--primary-color);
+}
+.modal-title {
+	color: black;
+}
+
+.text-left {
+	margin: 3px;
+	padding: 5px;
+}
+
+#artists-page {
+	padding: 50px;
+}
+
+.d-block {
+	height: 400px;
+	width: 500px;
+	object-fit: contain;
+}
+ */
